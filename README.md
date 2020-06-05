@@ -16,3 +16,13 @@ Create a disbursement report from a list of donations in CSV.
 - Include instructions on how to set it up and run in the README.md
 - Add your resume and other profile / project links
 - Submit a pull request (PR)
+
+
+
+###Setup
+install python2
+Run  "brew install wxpython" to install 
+Run "python main.py"
+in the window opened select the csv file and two files will be generated in the same directory as main,py
+results.csv -> required result 
+not_valid.csv -> row Id with the reason for being not valid
